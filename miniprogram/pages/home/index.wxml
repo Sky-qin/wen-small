@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  {{title}}
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <view class="userinfo-nickname-wrapper">
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
+    </view>
+  </view>
+
+</view>
